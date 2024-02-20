@@ -1,204 +1,1052 @@
 {
   "tags": [
-    {"title": "Redis", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39},
-    {"title": "Vue", "amountOfVideos": 113},
-    {"title": "Angular", "amountOfVideos": 57},
-    {"title": "React", "amountOfVideos": 85},
-    {"title": "Svelte", "amountOfVideos": 142},
-    {"title": "Ember", "amountOfVideos": 96},
-    {"title": "Backbone", "amountOfVideos": 124},
-    {"title": "Aurelia", "amountOfVideos": 69},
-    {"title": "Meteor", "amountOfVideos": 114},
-    {"title": "Mithril", "amountOfVideos": 160},
-    {"title": "Polymer", "amountOfVideos": 31},
-    {"title": "Ember", "amountOfVideos": 109},
-    {"title": "Vue", "amountOfVideos": 78},
-    {"title": "Angular", "amountOfVideos": 62},
-    {"title": "Svelte", "amountOfVideos": 135},
-    {"title": "React", "amountOfVideos": 92},
-    {"title": "Backbone", "amountOfVideos": 116},
-    {"title": "Aurelia", "amountOfVideos": 71},
-    {"title": "Meteor", "amountOfVideos": 120},
-    {"title": "Mithril", "amountOfVideos": 166},
-    {"title": "Polymer", "amountOfVideos": 39}
+    {
+      "title": "Redis",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 113
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 57
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 85
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 142
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 96
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 124
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 69
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 114
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 160
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 31
+    },
+    {
+      "title": "Ember",
+      "slug": "old",
+      "amountOfVideos": 109
+    },
+    {
+      "title": "Vue",
+      "slug": "old",
+      "amountOfVideos": 78
+    },
+    {
+      "title": "Angular",
+      "slug": "old",
+      "amountOfVideos": 62
+    },
+    {
+      "title": "Svelte",
+      "slug": "old",
+      "amountOfVideos": 135
+    },
+    {
+      "title": "React",
+      "slug": "old",
+      "amountOfVideos": 92
+    },
+    {
+      "title": "Backbone",
+      "slug": "old",
+      "amountOfVideos": 116
+    },
+    {
+      "title": "Aurelia",
+      "slug": "old",
+      "amountOfVideos": 71
+    },
+    {
+      "title": "Meteor",
+      "slug": "old",
+      "amountOfVideos": 120
+    },
+    {
+      "title": "Mithril",
+      "slug": "old",
+      "amountOfVideos": 166
+    },
+    {
+      "title": "Polymer",
+      "slug": "old",
+      "amountOfVideos": 39
+    },
+    {
+      "id": "6964",
+      "name": "Tag do Diego",
+      "slug": "",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "b2fa",
+      "title": "12312dasdasd",
+      "slug": "",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "b0d2",
+      "title": "TEste Agora vai esse slug desgraçado",
+      "slug": "teste-agora-vai-esse-slug-desgracado",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "0ee8",
+      "title": "asdasdasdasd",
+      "slug": "asdasdasdasd",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "891b",
+      "title": "12asdasdasdasd3",
+      "slug": "12asdasdasdasd3",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "4f63",
+      "title": "Nova tag",
+      "slug": "nova-tag",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "247b",
+      "title": "teste com mutation",
+      "slug": "teste-com-mutation",
+      "amountOfVideos": 0
+    },
+    {
+      "id": "4037",
+      "title": "deve aparecer na lista sozinho",
+      "slug": "deve-aparecer-na-lista-sozinho",
+      "amountOfVideos": 0
+    }
   ]
 }
