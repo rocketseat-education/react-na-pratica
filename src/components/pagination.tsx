@@ -8,15 +8,33 @@ import {
 import { useSearchParams } from 'react-router-dom'
 import { Button } from './ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger } from './ui/select'
+import { Tag } from '../app'
+import { useEffect } from 'react'
 
 interface PaginationProps {
   pages: number
   items: number
   page: number
+  itemsPerPage: Tag[]
 }
 
-export function Pagination({ items, page, pages }: PaginationProps) {
-  const [, setSearchParams] = useSearchParams()
+export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps) {
+  const [searchParams, setSearchParams] = useSearchParams()
+
+  const rowsPerPage = searchParams.get("per_page")
+  ? Number(searchParams.get("per_page"))
+  : 10;
+
+  console.log(itemsPerPage.length)
+  const isPageGreaterThanPages = page > pages ? pages : page;
+
+  useEffect(() => {
+    setSearchParams((params) => {
+      params.set('page', String(isPageGreaterThanPages))
+
+      return params
+    })
+  }, [isPageGreaterThanPages, pages, setSearchParams])
 
   function firstPage() {
     setSearchParams(params => {
@@ -58,14 +76,24 @@ export function Pagination({ items, page, pages }: PaginationProps) {
     })
   }
 
+  function handleNumberOfRows(e: string) {
+    const rows = e;
+
+    setSearchParams((params) => {
+      params.set("per_page", rows);
+
+      return params;
+    });
+  }
+
   return (
     <div className="flex text-sm items-center justify-between text-zinc-500">
-      <span>Showing 10 of {items} items</span>
+      <span>Showing {itemsPerPage.length} of {items} items</span>
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-2">
           <span>Rows per page</span>
 
-          <Select defaultValue="10">
+          <Select defaultValue={String(rowsPerPage)} onValueChange={handleNumberOfRows}>
             <SelectTrigger aria-label="Page" />
             <SelectContent>
               <SelectItem value="10">10</SelectItem>
@@ -75,7 +103,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
           </Select>
         </div>
 
-        <span>Page {page} of {pages}</span>
+        <span>Page {isPageGreaterThanPages} of {pages}</span>
 
         <div className="space-x-1.5">
           <Button onClick={firstPage} size="icon" disabled={page - 1 <= 0}>
