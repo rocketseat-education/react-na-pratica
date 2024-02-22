@@ -10,11 +10,11 @@ import {
 } from 'lucide-react'
 import { FormEvent, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { Header } from './components/header'
-import { Pagination } from './components/pagination'
-import { Tabs } from './components/tabs'
-import { Button } from './components/ui/button'
-import { Control, Input } from './components/ui/input'
+import { Header } from '../../components/header'
+import { Pagination } from '../../components/pagination'
+import { Tabs } from '../../components/tabs'
+import { Button } from '../../components/ui/button'
+import { Control, Input } from '../../components/ui/input'
 import {
 	Table,
 	TableBody,
@@ -22,8 +22,9 @@ import {
 	TableHead,
 	TableHeader,
 	TableRow,
-} from './components/ui/table'
-import { CreateTagForm } from './pages/tags/create-tag-form'
+} from '../../components/ui/table'
+import { CreateTagForm } from './create-tag-form'
+import { TagsTableSkeleton } from './tags-table-skeleton'
 
 export interface TagResponse {
 	first: number
@@ -42,7 +43,7 @@ export interface Tag {
 	id: string
 }
 
-export function App() {
+export function Tags() {
 	const [dialogState, setDialogState] = useState<'closed' | 'open'>('closed')
 
 	const [searchParams, setSearchParams] = useSearchParams()
@@ -51,6 +52,8 @@ export function App() {
 	const [filter, setFilter] = useState(urlFilter)
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1
+
+	// const isLoading = false
 
 	const {
 		data: tagsResponse,
@@ -156,24 +159,27 @@ export function App() {
 				<Table>
 					<TableHeader>
 						<TableRow>
-							<TableHead></TableHead>
-							<TableHead>Tag</TableHead>
+							<TableHead className='flex items-center gap-5'>
+								{/* checkbox placeholder */}
+								<div className='w-4 h-4 border rounded-md border-zinc-800 hover:cursor-pointer' />
+								Tag
+							</TableHead>
 							<TableHead>Amount of videos</TableHead>
-							<TableHead></TableHead>
+							<TableHead className='text-end'>Actions</TableHead>
 						</TableRow>
 					</TableHeader>
 
 					<TableBody>
 						{isLoading ? (
-							<>Carregando</>
+							<TagsTableSkeleton />
 						) : (
 							<>
 								{tagsResponse?.data.map((tag) => {
 									return (
 										<TableRow key={tag.id}>
-											<TableCell></TableCell>
+											<TableCell className='flex items-center gap-5'>
+												<div className='w-4 h-4 border rounded-md border-zinc-800 hover:cursor-pointer' />
 
-											<TableCell>
 												<div className='flex flex-col gap-0.5'>
 													<span className='font-medium'>{tag.title}</span>
 													<span className='text-xs text-zinc-500'>{tag.slug}</span>

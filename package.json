@@ -22,6 +22,7 @@
     "react-dom": "^18.2.0",
     "react-hook-form": "7.50.1",
     "react-router-dom": "6.22.1",
+    "sonner": "^1.4.0",
     "sort-by": "1.2.0",
     "tailwind-merge": "2.2.1",
     "tailwind-variants": "0.2.0",
