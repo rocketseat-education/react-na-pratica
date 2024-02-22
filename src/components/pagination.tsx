@@ -23,6 +23,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 	function handlePageSizeChange(value: string) {
 		setSearchParams((params) => {
 			params.set('pageSize', value)
+			params.set('page', '1')
 
 			return params
 		})
