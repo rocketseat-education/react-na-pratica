@@ -16,7 +16,17 @@ interface PaginationProps {
 }
 
 export function Pagination({ items, page, pages }: PaginationProps) {
-	const [, setSearchParams] = useSearchParams()
+	const [searchParams, setSearchParams] = useSearchParams()
+
+	const pageSize = searchParams.get('pageSize') ?? '10'
+
+	function handlePageSizeChange(value: string) {
+		setSearchParams((params) => {
+			params.set('pageSize', value)
+
+			return params
+		})
+	}
 
 	function firstPage() {
 		setSearchParams((params) => {
@@ -65,7 +75,10 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 				<div className='flex items-center gap-2'>
 					<span>Rows per page</span>
 
-					<Select defaultValue='10'>
+					<Select
+						defaultValue={pageSize}
+						onValueChange={(value) => handlePageSizeChange(value)}
+					>
 						<SelectTrigger aria-label='Page' />
 						<SelectContent>
 							<SelectItem value='10'>10</SelectItem>
@@ -88,6 +101,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 						<LucideChevronsLeft className='size-4' />
 						<span className='sr-only'>First page</span>
 					</Button>
+
 					<Button
 						onClick={previousPage}
 						size='icon'
@@ -96,6 +110,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 						<LucideChevronLeft className='size-4' />
 						<span className='sr-only'>Previous page</span>
 					</Button>
+
 					<Button
 						onClick={nextPage}
 						size='icon'
@@ -104,6 +119,7 @@ export function Pagination({ items, page, pages }: PaginationProps) {
 						<LucideChevronRight className='size-4' />
 						<span className='sr-only'>Next page</span>
 					</Button>
+
 					<Button
 						onClick={lastPage}
 						size='icon'

@@ -52,27 +52,28 @@ export function Tags() {
 	const [filter, setFilter] = useState(urlFilter)
 
 	const page = searchParams.get('page') ? Number(searchParams.get('page')) : 1
-
-	// const isLoading = false
+	const pageSize = searchParams.get('pageSize') ? Number(searchParams.get('pageSize')) : 10
 
 	const {
 		data: tagsResponse,
 		isFetching,
 		isLoading,
 	} = useQuery<TagResponse>({
-		queryKey: ['get-tags', urlFilter, page],
+		queryKey: ['get-tags', urlFilter, page, pageSize],
 		queryFn: async () => {
 			// delay 2s
 			await new Promise((resolve) => setTimeout(resolve, 2000))
 
 			const response = await fetch(
-				`http://localhost:3333/tags?_page=${page}&_per_page=10&title=${urlFilter}`
+				`http://localhost:3333/tags?_page=${page}&_per_page=${pageSize}&title=${urlFilter}`
 			)
 			const data = await response.json()
 
 			return data
 		},
 		placeholderData: keepPreviousData,
+		refetchOnWindowFocus: false,
+		staleTime: 1000 * 60, // 1min
 	})
 
 	function handleFilter(event: FormEvent) {
@@ -170,7 +171,7 @@ export function Tags() {
 					</TableHeader>
 
 					<TableBody>
-						{isLoading ? (
+						{isLoading || isFetching ? (
 							<TagsTableSkeleton />
 						) : (
 							<>

@@ -1,10 +1,15 @@
+import { useSearchParams } from 'react-router-dom'
 import { Button } from '../../components/ui/button'
 import { TableCell, TableRow } from '../../components/ui/table'
 
 export function TagsTableSkeleton() {
+	const [searchParams] = useSearchParams()
+
+	const pageSize = searchParams.get('pageSize') ? Number(searchParams.get('pageSize')) : 10
+
 	return (
 		<>
-			{Array.from({ length: 10 }).map((_, i) => {
+			{Array.from({ length: pageSize }).map((_, i) => {
 				return (
 					<TableRow key={i}>
 						<TableCell className='flex items-center gap-5'>
