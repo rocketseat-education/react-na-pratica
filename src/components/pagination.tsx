@@ -15,7 +15,7 @@ interface PaginationProps {
   pages: number
   items: number
   page: number
-  itemsPerPage: Tag[]
+  itemsPerPage: number
 }
 
 export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps) {
