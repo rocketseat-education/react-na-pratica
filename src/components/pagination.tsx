@@ -21,9 +21,6 @@ interface PaginationProps {
 export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps) {
   const [searchParams, setSearchParams] = useSearchParams()
 
-  const rowsPerPage = searchParams.get("per_page")
-  ? Number(searchParams.get("per_page"))
-  : 10;
 
   console.log(itemsPerPage.length)
   const isPageGreaterThanPages = page > pages ? pages : page;
