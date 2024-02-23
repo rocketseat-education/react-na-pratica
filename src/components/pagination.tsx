@@ -8,7 +8,6 @@ import {
 import { useSearchParams } from 'react-router-dom'
 import { Button } from './ui/button'
 import { Select, SelectContent, SelectItem, SelectTrigger } from './ui/select'
-import { Tag } from '../app'
 import { useEffect } from 'react'
 
 interface PaginationProps {
@@ -19,10 +18,7 @@ interface PaginationProps {
 }
 
 export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps) {
-  const [searchParams, setSearchParams] = useSearchParams()
-
-
-  console.log(itemsPerPage.length)
+  const [, setSearchParams] = useSearchParams()
   const isPageGreaterThanPages = page > pages ? pages : page;
 
   useEffect(() => {
