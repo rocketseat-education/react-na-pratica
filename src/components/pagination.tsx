@@ -85,7 +85,7 @@ export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps
 
   return (
     <div className="flex text-sm items-center justify-between text-zinc-500">
-      <span>Showing {itemsPerPage.length} of {items} items</span>
+      <span>Showing {itemsPerPage} of {items} items</span>
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-2">
           <span>Rows per page</span>
