@@ -90,7 +90,7 @@ export function Pagination({ items, page, pages, itemsPerPage }: PaginationProps
         <div className="flex items-center gap-2">
           <span>Rows per page</span>
 
-          <Select defaultValue={String(rowsPerPage)} onValueChange={handleNumberOfRows}>
+          <Select defaultValue={String(itemsPerPage)} onValueChange={handleNumberOfRows}>
             <SelectTrigger aria-label="Page" />
             <SelectContent>
               <SelectItem value="10">10</SelectItem>
