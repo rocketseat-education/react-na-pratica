@@ -164,7 +164,7 @@ export function App() {
             pages={tagsResponse.pages} 
             items={tagsResponse.items} 
             page={page} 
-            itemsPerPage={tagsResponse.data}/>
+            itemsPerPage={per_page}/>
           )}
       </main>
     </div>
